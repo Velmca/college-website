@@ -55,7 +55,18 @@ padding:22px;
 box-shadow:0 5px 18px rgba(20,60,40,.045)
 }
 .card h3{margin:0 0 8px;color:var(--green);font-size:17px}.card p{margin:0;color:var(--muted);font-size:14px}.text-link,.department span{display:inline-block;margin-top:12px;color:var(--green);font-weight:700;font-size:13px}.department:hover{border-color:var(--green);transform:translateY(-2px);transition:.2s}.center{text-align:center;margin:38px 0 18px!important}
-.photo-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.photo-placeholder,.map-placeholder{min-height:160px;border:1px dashed #aabbb0;border-radius:8px;background:linear-gradient(135deg,#e8f0e9,#d5e3d8);display:grid;place-items:center;color:#52705d;font-size:13px;font-weight:600}
+.photo-grid
+{
+ display:grid;
+ grid-template-columns:repeat(3,1fr);
+ gap:16px}.photo-placeholder,.map-placeholder{min-height:160px;
+ border:1px dashed #aabbb0;
+ border-radius:8px;background:linear-gradient(135deg,#e8f0e9,#d5e3d8);
+ display:grid;place-items:center;
+ color:#52705d;
+ font-size:13px;
+ font-weight:600
+ }
 .page-banner
 {
 padding:48px 4%;text-align:center;
