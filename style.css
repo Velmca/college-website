@@ -59,7 +59,11 @@ box-shadow:0 5px 18px rgba(20,60,40,.045)
 {
  display:grid;
  grid-template-columns:repeat(3,1fr);
- gap:16px}.photo-placeholder,.map-placeholder{min-height:160px;
+ gap:16px
+}
+.photo-placeholder,.map-placeholder
+{
+ min-height:160px;
  border:1px dashed #aabbb0;
  border-radius:8px;background:linear-gradient(135deg,#e8f0e9,#d5e3d8);
  display:grid;place-items:center;
